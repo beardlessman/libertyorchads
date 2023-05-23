@@ -17,6 +17,7 @@
   data-view="quick-view"
   data-section-id="{{ section.id }}">
   {%- assign aspect_ratio = product.featured_image.aspect_ratio | default: 0.75 -%}
+  {% render 'main-product-blocks', section: section, product: product %}
   <div class="w-full lg:w-1/2{% if aspect_ratio > 1 and product.has_only_default_variant != true %} pb-[50px]{% endif %}">
     <div class="relative overflow-hidden flex items-center justify-center" style="--aspect-ratio: {{ aspect_ratio }}">
       <div class="sf-pqv__media">
