@@ -35,17 +35,17 @@
             "show_saving": true
           }
         },
-        "ec2478f6-6d3c-4e02-a4ec-e127b5e993b7": {
-          "type": "shopify:\/\/apps\/wrapped\/blocks\/app-block.product\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_quantity_selector": true,
             "show_atc_button": true,
             "show_dynamic_checkout": true
+          }
+        },
+        "de8d7fca-a6f1-4566-8f13-7c7227827962": {
+          "type": "rating",
+          "settings": {
           }
         },
         "769e81dd-1672-4639-ae62-2dca9c0b46e7": {
@@ -67,8 +67,8 @@
         "d2dee2ca-06c0-4b7d-9bc1-9f630ee3ce41",
         "title",
         "price",
-        "ec2478f6-6d3c-4e02-a4ec-e127b5e993b7",
         "buy_buttons",
+        "de8d7fca-a6f1-4566-8f13-7c7227827962",
         "769e81dd-1672-4639-ae62-2dca9c0b46e7",
         "addons"
       ],

@@ -5571,4 +5571,7 @@ body {
   }
 }
 
+.f-price-item.f-price-item--regular {
+  font-weight: 600;
+}
 /*# sourceMappingURL=theme.css.map */
