@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "beae-about-us": {
+      "type": "beae-about-us",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "beae-about-us"
+  ]
+}

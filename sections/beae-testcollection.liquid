@@ -1,0 +1,305 @@
+
+            {% assign beae_root_url = routes.root_url %}
+            {% if beae_root_url != '/'%}
+                {% assign beae_root_url = routes.root_url | append: '/' %}
+            {% endif %}
+        <link rel="stylesheet" id="beae-vendors-slider_css" href="https://cdn.beae.com/vendors/css/beae-swiper-bundle.min.css" /><link rel="stylesheet" id="beae-vendors-popup_css" href="https://cdn.beae.com/vendors/css/beaepopup.css" />{%capture section_id %}beae-testcollection{% endcapture%}{% if section_id == section.id %}{% if shop.metafields.beae.global_css %}
+            <!--BEAE-EMBED-->
+            <link href="data:text/css;base64,{{-shop.metafields.beae.global_css-}}" rel="stylesheet" id="beae-global-css"/>
+            <!--/BEAE-EMBED-->
+        {% endif %}
+{{ content_for_header }}
+{% render 'beae_header', BEAE_THEME: true %}{% endif %}
+{{'beae-645bb8026fed2d111a4dd6a3.css'  | asset_url | stylesheet_tag }}
+<script type="text/javascript" id="beae-page-info">
+                    window.BEAE = window.BEAE || {};
+                    window.BEAE.TEMPLATE = {"template_id":"645bb8026fed2d111a4dd6a3","title":"testcollection","type":"collection","slug":"beae-testcollection","plan_id":4};
+            </script>
+<div class="beae-builder"><div class="beae-sections"><section class="beae-row beae-core beae-section beae-5om4ht5v" data-beaeis="section"><div class="core__row--columns"><div class="beae-column beae-core core__column--first core__column--last beae-i91a0k5l" data-beaeis="column" style="z-index: 1; outline-offset: -1px;"><div class="core__column--wrapper"><div class="core__blocks" data-beaeis="blocks"><div class="core__blocks--body"><div class="beae-block beae-core core__block elmspace beae-cttlvl2s" data-beaeis="block" data-core-is="block"><div class="beae__element element__spacer beae-element" deep="1"><div class="beae__element-spacer"><div class="beae__element-spacing"></div></div></div></div></div></div></div></div></div></section>
+                    {% comment %}
+                        // Reactive
+                        * this.data.settings.collection
+                    {% endcomment  %}
+                    {% liquid
+                        if request.page_type != 'collection' or collection == blank
+                            assign selected_collection = 'aplets-cotlets'
+                            if selected_collection == blank or selected_collection == '' or collections[selected_collection] == blank
+                                assign collection = collections.all
+                            else
+                                assign collection = collections[selected_collection]
+                            endif
+                        endif
+                    %}
+                 <section class="beae-row beae-core beae-section beae-6gtwsckd" data-beaeis="section"><div class="core__row--columns"><div class="beae-column beae-core core__column--first core__column--last beae-n17svs9o" data-beaeis="column" style="z-index: 1; outline-offset: -1px;"><div class="core__column--wrapper"><div class="core__blocks" data-beaeis="blocks"><div class="core__blocks--body"><div class="beae-block beae-core core__block beae-ss1eis0z" data-beaeis="block" data-core-is="block"><div class="beae-element beae-collection beae-collection__product" deep="1"><div class="beae-collection__product-wrapper">
+                            {% liquid
+                                assign colors = shop.metafields.beae.colors
+                                assign tmp_collection = collection
+                            %}
+                            
+                        
+                    {%- capture limit-%}16{% endcapture %}
+                    {%- if limit == blank -%}
+                        {% assign limit = 12 %}
+                    {% else %}
+                        {% assign limit = limit | plus: 0 %}
+                    {%- endif-%}
+                
+                        {%- if collection != blank -%}
+                            {%- paginate collection.products by limit -%}
+                            {% assign products = collection.products %}
+                            {% assign is_collection = true %}
+                    
+                            {% assign check_min = 0%}
+                        <div id="beae-quickview-beae-ss1eis0z" class="quickview-popup"></div><div class="beae-collection__product-container"><div class="beae-products-main beae-products-main--grid">
+                            {% if products and products.size > check_min  and products != blank %}
+                                <div class="beae-loader">Loading...</div>
+                                <div class="beae-products--wrapper-items beae-products__layout-grid ">
+                                {% assign beae_count = 0 %}
+                                {% for product in products  %}
+                                    
+                                        {% if beae_count >= limit %}{% break %}{% endif %}
+                                        {% assign beae_count = beae_count | plus: 1 %}
+                                    
+                                    
+                                   <div class="beae-product-item beae-product-form" data-product-handle="{{product.handle}}">
+                                        <div class="beae-product-item--wrapper">
+                                            <div class="beae-product-media {% if product.featured_media == nil %} beae-products--text-only{% endif %}">
+                                                <a href="{%- if is_collection-%}{{- product.url | within: collection -}}{% else %}{{- product.url -}}{%-endif-%}" title="{{product.title | escape }}" class="beae-products-item--inner beae-image-default">
+                                                    
+                            {%- if product.featured_media -%}
+                                {%- liquid
+                                    assign featured_media_aspect_ratio = product.featured_media.aspect_ratio
+                                    if product.featured_media.aspect_ratio == nil
+                                        assign featured_media_aspect_ratio = 1
+                                    endif
+                                -%}
+                                    <div class="beae-product-media-image beae-product-media--transparent beae-product-media--ratio
+                                        {% if product.media[1] != nil %}beae-product-media--hover-effect{% endif %}"
+                                        
+                                        >
+                                            {%- assign featured_media = product.featured_media | img_url: '533x' -%}
+                                            {%- capture fm_srcset -%}
+                                                {%- if product.featured_media.width >= 165 -%}{{ product.featured_media | img_url: '165x' }} 165w,{%- endif -%}
+                                                {%- if product.featured_media.width >= 360 -%}{{ product.featured_media | img_url: '360x' }} 360w,{%- endif -%}
+                                                {%- if product.featured_media.width >= 533 -%}{{ product.featured_media | img_url: '533x' }} 533w,{%- endif -%}
+                                                {%- if product.featured_media.width >= 720 -%}{{ product.featured_media | img_url: '720x' }} 720w,{%- endif -%}
+                                                {%- if product.featured_media.width >= 940 -%}{{ product.featured_media | img_url: '940x' }} 940w,{%- endif -%}
+                                                {%- if product.featured_media.width >= 1066 -%}{{ product.featured_media | img_url: '1066x' }} 1066w{%- endif -%}
+                                            {%- endcapture -%}
+                                            <div id="beae-micro-p6ymwtgfx1" class="beae-core core__microelement core__microelement--image core__micro--image"><div class="core__micro--wrapper" data-beaeis="micro"><div class="beae-microelement__image"><img src="{{- featured_media -}}" alt="{{ product.featured_media.alt | escape }}" srcset="{{-fm_srcset-}}" sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" class="beae-product-media-image" loading="lazy" width="0" height="0" image-mode=""></div></div></div>
+                                            
+                                                {%- if product.media[1] != nil -%}
+                                                {%- assign secondary_media = product.media[1] | img_url: '533x' -%}
+                                                {%- capture sm_srcset -%}
+                                                    {%- if product.media[1].width >= 165 -%}{{ product.media[1] | img_url: '165x' }} 165w,{%- endif -%}
+                                                    {%- if product.media[1].width >= 360 -%}{{ product.media[1] | img_url: '360x' }} 360w,{%- endif -%}
+                                                    {%- if product.media[1].width >= 533 -%}{{ product.media[1] | img_url: '533x' }} 533w,{%- endif -%}
+                                                    {%- if product.media[1].width >= 720 -%}{{ product.media[1] | img_url: '720x' }} 720w,{%- endif -%}
+                                                    {%- if product.media[1].width >= 940 -%}{{ product.media[1] | img_url: '940x' }} 940w,{%- endif -%}
+                                                    {%- if product.media[1].width >= 1066 -%}{{ product.media[1] | img_url: '1066x' }} 1066w{%- endif -%}
+                                                {%- endcapture -%}
+                                                <div id="beae-micro-pb2mpqgv1e" class="beae-core core__microelement core__microelement--image core__micro--image"><div class="core__micro--wrapper" data-beaeis="micro"><div class="beae-microelement__image"><img src="{{- secondary_media -}}" alt="{{ product.media[1].alt | escape }}" srcset="{{-sm_srcset-}}" sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" class="beae-product-secondary-media" loading="lazy" width="0" height="0" image-mode=""></div></div></div>
+                                                {%- endif -%}
+                                                
+                                    </div>
+                                {% else %}
+                                    <div class="beae-product-item--inner">
+                                        <div class="beae-product-item--content">
+                                            <h2 class="beae-product-item--content-text">{{ product.title }}</h2>
+                                        </div>
+                                    </div>
+                                {% endif %}
+
+                            
+                        
+                                                </a>
+                                                
+                                                <div class="beae-atc-special-mode">
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="beae-product-information">
+                                                <div class="beae-products-item--information-wrapper">
+                                                
+                            {%- if product.featured_media -%}
+                                <div id="beae-micro-5ib2i3sbfup" class="beae-core core__microelement core__microelement--title core__micro--title_product"><div class="core__micro--wrapper" data-beaeis="micro"><a href="{%- if is_collection-%}{{- product.url | within: collection -}}{% else %}{{- product.url -}}{%-endif-%}" title="{{product.title | escape }}" class="beae-product-item-information-title"><span class="beae-microelement__title" placeholder="Enter heading text ...">{{ product.title | escape }}</span></a></div></div>
+                            {%- endif -%}
+                        
+                        {%- capture price -%}
+                                {% capture currency_code_enabled -%}false{%- endcapture -%}
+                                {%- liquid
+                                    assign price = product.price_min | default: 0
+                                    assign money_price = price | money
+                                    assign check_price = 0
+                                    if currency_code_enabled == 'true'
+                                        assign money_price = price | money_with_currency
+                                    endif
+                                    unless product.compare_at_price > product.price
+                                        assign check_price = 1
+                                    endunless
+                                    
+                                -%}
+                                {% if false %}
+                                    <span class="beae-product-price--sale">{{ money_price }}</span>
+                                    <span class="beae-product-price--regular beae-product--compare-at-price"
+                                        {%- if check_price == 1 -%} style="display:none; content:'1'" {% endif %}
+                                    >
+                                        {% if currency_code_enabled == 'true' %}
+                                            {{ product.compare_at_price_max | money_with_currency }}
+                                        {% else %}
+                                            {{ product.compare_at_price_max | money }}
+                                        {% endif %}
+                                    </span>
+                                {% else %}
+                                    <span class="beae-product-price--sale">{{ money_price }}</span>
+                                    {%- liquid
+                                        assign target = product.variants.first
+                                        assign lowest_price = target.price
+                                        assign check_target = 0
+                                        for variant in product.variants
+                                            if variant.price < lowest_price
+                                                assign lowest_price = variant.price
+                                                assign target = variant
+                                            endif
+                                        endfor
+
+                                        unless target.compare_at_price > target.price
+                                            assign check_target = 1
+                                        endunless
+                                    -%}
+                                    <span class="beae-product-price--regular beae-product--compare-at-price"
+                                        {%- if check_target == 1 -%} style="display:none" {% endif %}
+                                    >
+                                    {%- if currency_code_enabled == 'true' -%}
+                                        {{ target.compare_at_price | money_with_currency }}
+                                    {%- else -%}
+                                        {{ target.compare_at_price | money }}
+                                    {%- endif -%}
+                                    </span>
+                                {% endif %}
+                                {%- endcapture -%}
+                            <div id="beae-micro-4me4czqutyl" class="beae-core core__microelement core__microelement--price core__micro--price"><div class="core__micro--wrapper" data-beaeis="micro"><div class="beae-microelement-price--prices">{{ price }}</div><div class="beae-microelement-price--badges"><span class="beae-microelement-price--badges-sale" data-text="{{ 'sections.beae-testcollection.product_single_sale_text_ss1eis0z_html' | t }}" data-sale="percent">{{ 'sections.beae-testcollection.product_single_sale_text_ss1eis0z_html' | t }}</span><span class="beae-microelement-price--badges-sold-out">{{ 'sections.beae-testcollection.product_single_sold_text_ss1eis0z_html' | t }}</span></div></div></div>
+                        
+                            {% if product.has_only_default_variant %}
+                                <div id="beae-micro-8lbp70xj95n" class="beae-core core__microelement core__microelement--button core__micro--button_add_to_cart_btn"><div class="core__micro--wrapper" data-beaeis="micro"><a id="" title="{{ product.title | escape }}" href="{{beae_root_url}}cart/add/{{ product.variants.first.id }}" data-id="{{ product.variants.first.id }}" data-handle="{{ product.handle }}" data-pid="{{ product.id }}" data-text-add-cart="+ Add to cart" data-text-outstock="Out of stock" data-text-added-cart="Added to cart" data-message-added-cart="Add to cart success" data-action="popup" data-is-cart-draw="true" class="beae-microelement__button beae__element--button beae-ajax-cart-submit beae-products-form__actions--add beae-products-simple-add-to-cart beae-ajax-cart-simple"><span class="beae__element--button-icon-text beae-button-text-content beae-add-to-cart-text">+ Add to cart</span></a></div></div>
+                            {% else %}
+                                <div id="beae-micro-9505sd97vvc" class="beae-core core__microelement core__microelement--button core__micro--button_add_to_cart_btn"><div class="core__micro--wrapper" data-beaeis="micro"><a id="" title="{{ product.title | escape }}" href="{{beae_root_url}}cart/add/{{ product.selected_or_first_available_variant.id }}" data-id="{{ product.selected_or_first_available_variant.id }}" data-handle="{{ product.handle }}" data-pid="{{ product.id }}" data-text-add-cart="+ Add to cart" data-text-outstock="Out of stock" data-text-added-cart="Added to cart" data-message-added-cart="Add to cart success" data-action="popup" data-is-cart-draw="true" class="beae-microelement__button beae__element--button beae-ajax-cart-submit beae-products-form__actions--add beae-products-simple-add-to-cart beae-ajax-cart-simple"><span class="beae__element--button-icon-text beae-button-text-content beae-add-to-cart-text">+ Add to cart</span></a></div></div>
+                            {% endif %}
+                        
+
+                                                    <script class="product-json" type="application/json">
+                                                        {{- product | json -}}
+                                                    </script>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                {% endfor %}
+                                </div>
+                            {% else %}
+                                <div class="beae-products--wrapper-items beae-products__layout-grid" >
+                                    <div class="beae-products-item beae-products--no-item" >
+                                        {{ 'sections.beae-testcollection.no_product_item_ss1eis0z_html' | t }}
+                                    </div>
+                                </div>
+                            {% endif %}
+
+                            
+                                
+                        {%- capture type -%}infinite{%- endcapture -%}
+                        {% case type %}
+                            {%- when 'paginate'-%}
+                                {%- if paginate.pages > 1 -%}
+                                    <nav role="navigation">
+                                    <ol class="beae-pagination-navigation beae-collection__pagination-navigation">
+                                        {%- if paginate.previous -%}
+                                            
+                                            {%- endif -%}
+
+                                            {%- for part in paginate.parts -%}
+                                                {%- if part.is_link -%}
+                                                    <li >
+                                                        <a class="beae-pagination-item" href="{{ part.url }}" title="{{ part.title }}">
+                                                            {{ part.title }}
+                                                        </a>
+                                                    </li>
+                                                {%- else -%}
+                                                    {%- if part.title == paginate.current_page -%}
+                                                    <li class="beae-pagination-item beae-button-active" aria-current="page">
+                                                        {{ part.title }}
+                                                    </li>
+                                                    {%- else -%}
+                                                    <li class="beae-pagination-item">
+                                                        {{ part.title }}
+                                                    </li>
+                                                    {%- endif -%}
+                                                {%- endif -%}
+                                            {%- endfor -%}
+
+                                            {%- if paginate.next -%}
+                                                
+                                            {%- endif -%}
+                                    </ol>
+                                    </nav>
+                                {%- endif -%}
+                            {%- when 'more','infinite' -%}
+                                {%- if paginate.pages > 1 and paginate.current_page < paginate.pages -%}
+                                    <nav role="navigation" class="beae-products-footer">
+                                    {%- assign next_url = paginate.next.url -%}
+                                    {%- if request.page_type != 'index' %}
+                                        {%- assign next_url = next_url | remove : request.path -%}
+                                    {%- endif -%}
+                                    <div id="beae-micro-63ejryzyk3e" class="beae-core core__microelement core__microelement--button core__micro--button_load_more"><div class="core__micro--wrapper" data-beaeis="micro"><a id="" data-id="{{section.id}}" data-get="{{ collection.url }}{{ next_url }}" href="{{ collection.url }}{{ next_url }}" class="beae-microelement__button beae__element--button beae-load-more-target beae-load-more {% if type == 'infinite' %}load-infinite{% endif %}"><span class="beae__element--button-icon-text beae-button-text-content">{{ 'sections.beae-testcollection.undefined_ss1eis0z_html' | t }}</span></a></div></div> 
+
+                                    </nav>
+                                {%- endif -%}
+                            {% else %}
+                        {% endcase %}
+                    
+                                    {% endpaginate %}
+                                    {% endif %}
+                                    
+                            
+
+                            {% assign collection = tmp_collection %}
+                        </div></div></div></div></div></div></div></div></div></div></section>
+
+                <!---This page has been built by Beae Builder (www.beae.com)--->
+</div></div>{% if section_id == section.id %}{% endif%}<script  type="text/javascript" id="beae-vendors-section_helper" src="https://cdn.beae.com/vendors/js/section-helper.js" ></script><script  type="text/javascript" id="beae-vendors-products_js" src="https://cdn.beae.com/vendors/js-v2/product.min.js" ></script><script  type="text/javascript" id="beae-vendors-countdown_js" src="https://cdn.beae.com/vendors/js-v2/countdown.min.js" ></script><script  type="text/javascript" id="beae-vendors-slider_js" src="https://cdn.beae.com/vendors/js-v2/swiper.min.js" ></script><script  type="text/javascript" id="beae-vendors-popup_js" src="https://cdn.beae.com/vendors/js-v2/popup.min.js" ></script><script  type="text/javascript" id="beae-vendors-ajax_cart" src="https://cdn.beae.com/vendors/js-v2/ajax_cart.min.js" ></script>
+<script src="{{'beae-645bb8026fed2d111a4dd6a3.js'  | asset_url }}" defer="defer"></script>
+
+{% schema %}
+{
+    "name": "BEAE BUILDER APP",
+    "locales": {
+        "en": {
+            "no_product_item_ss1eis0z_html": "There are no product yet!",
+            "undefined_ss1eis0z_html": "Load more",
+            "add_to_cart_ss1eis0z_html": "+ Add to cart",
+            "out_stock_ss1eis0z_html": "Out of stock",
+            "added_cart_text_ss1eis0z_html": "Added to cart",
+            "added_cart_message_ss1eis0z_html": "Add to cart success",
+            "product_single_sale_text_ss1eis0z_html": "Save {}",
+            "product_single_sold_text_ss1eis0z_html": "(Sold out)"
+        }
+    },
+    "settings": [
+        {
+            "type": "header",
+            "content": "The section was generated by BEAE BUILDER",
+            "info": "\n                        Beae is a flexible page builder app on Shopify AppStore.\n                        It provides 100+ Shopify Elements and pre-built templates library, \n                        so you can build unlimited pages that you can imagine with it.\n                    "
+        },
+        {
+            "type": "header",
+            "content": "[EDIT WITH BEAE APP \u2192](https:\/\/0f4eb4.myshopify.com\/admin\/apps\/beae-flexible-page-builder\/shop\/builder\/&page=collection&id=645bb8026fed2d111a4dd6a3)",
+            "info": "(*You must install the app to start editing this section [Learn more](https:\/\/docs.beae.com\/en\/article\/quick-start-guide-dkoesy\/))"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "@app"
+        }
+    ]
+}
+{% endschema %}

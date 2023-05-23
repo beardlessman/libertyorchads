@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "beae-testcollection": {
+      "type": "beae-testcollection",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "beae-testcollection"
+  ]
+}

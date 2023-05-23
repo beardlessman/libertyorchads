@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "404-template",
+      "settings": {
+        "bg_color": "#fff6e5",
+        "t1_color": "#000",
+        "t2_color": "#000"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

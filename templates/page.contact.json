@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-contact",
+      "settings": {
+        "container": "container"
+      }
+    },
+    "maps": {
+      "type": "maps",
+      "settings": {
+        "container": "container-fluid",
+        "map_height": "large",
+        "textx": "47.52151835933667",
+        "texty": "-120.46891063562555",
+        "zoom": "15",
+        "text2": "117 Mission Ave, Cashmere, WA 98815"
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "blocks": {
+        "text-block-1": {
+          "type": "textblock",
+          "settings": {
+            "title": "Address",
+            "content": "<p>117 Mission Ave, Cashmere, WA 98815<\/p>"
+          }
+        },
+        "text-block-2": {
+          "type": "textblock",
+          "settings": {
+            "title": "Information",
+            "content": "<p>+1 (800) 888-5696<\/p><p><a href=\"mailto:service@libertyorchards.com\">service@libertyorchards.com<\/a><\/p>"
+          }
+        },
+        "text-block-3": {
+          "type": "socialmedia",
+          "settings": {
+            "title": "Social Media"
+          }
+        },
+        "text-block-4": {
+          "type": "textblock",
+          "settings": {
+            "title": "We're Open",
+            "content": "<p>Our store has re-opened for shopping, exchanges<\/p><p>Every day 11am to 7pm<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text-block-1",
+        "text-block-2",
+        "text-block-3",
+        "text-block-4"
+      ],
+      "settings": {
+        "container": "container",
+        "title": "We would love to hear from you.",
+        "description": "<p>If you’ve got great products your making or looking to work with us then drop us a line.<\/p>",
+        "show_name": true,
+        "show_phone": false,
+        "show_signup_email": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "maps",
+    "contact-form"
+  ]
+}

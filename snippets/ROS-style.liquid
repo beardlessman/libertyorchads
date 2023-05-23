@@ -1,0 +1,113 @@
+<style type="text/css">
+    /* Layout - IF */
+    .ROS-sub-box-1 { border-radius: 4px; border: 1px solid #848484; padding: 15px; }
+    .ROS-sub-box-button-1 { display: flex; justify-content: space-between; flex-wrap: wrap;}
+    .ROS-sub-button-css-1{ width: 49%; padding: 10px 18px; border: 1px solid #000; border-radius: 4px; font-size: 14px; font-weight: 700; cursor: pointer; background-color: #ffffff; color: #000}
+    .ROS-sub-box-1 label { font-size: 14px; font-weight: 700; color: #000; }
+    .ROS-sub-radio-main-1 { width: 100%; display: flex; justify-content: space-between; }
+    .ROS-sub-label--radio-1{ position: relative; cursor: pointer; display: flex; }
+    .ROS-sub-main-one-1 span { display: inline-block; }
+    .ROS-sub-radio-1 { position: relative; margin: 0 1rem 0 0; cursor: pointer; }
+    .ROS-subscription-wrapper-1 {margin-top: 15px;}
+    .ROS-sub-radio-1:before { -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75); -moz-transition: -moz-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75); transition: transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75); -webkit-transform: scale(0, 0); -moz-transform: scale(0, 0); -ms-transform: scale(0, 0); -o-transform: scale(0, 0); transform: scale(0, 0); content: ""; position: absolute; top: 0px; left: -1px; z-index: 1; width: 20px; right: 0; height: 20px;  border-radius: 0;}
+    .ROS-sub-radio-1:checked:before { -webkit-transform: scale(1, 1);  -moz-transform: scale(1, 1); -ms-transform: scale(1, 1); -o-transform: scale(1, 1); transform: scale(1, 1); background-color: #000;}
+    .ROS-sub-radio-1:after { content: ""; position: absolute; top: 0px; left: -0.125rem; width: 20px; height: 20px; background: #fff; border: 2px solid #f2f2f2; border-radius: 4px; }
+    .ROS-sub-radio-1:hover{ background-color: #333; stroke:#0000; }
+    .ROS-sub-label--radio-1 input[type="radio"] { min-height : auto; }
+    /*.ROS-sub-main-css-1 { padding: 15px 0px 0px; }*/
+    /*.ROS-sub-radio-main-1 { padding-bottom: 10px; }*/
+    .ROS-sub-main-css-1 .ROS-sub-radio-main-1:last-child { padding-bottom: 0px; }
+    .ROS-active-1 { background-color: #3025c3; color: #e3e3e3; border: 1px solid #0041b0; font-weight: 700; font-size: 14px;}
+    .ROS-sub-radio-1 input[type="radio" i]:focus-visible { outline-offset: 0px; }
+    .ROS-sub-box-button-1 .ROS-sub-button-css-1:nth-child(n + 3){margin-top:10px;width:49%;}
+    .ROSHide{display: none;}
+    .ROS-Continer{padding: 0 5px; margin:15px 0;}
+    .ROS-Continer p{font-size: 14px; color: #000; font-weight: 400; text-align: left; margin-bottom: 0px;}
+    .ROS-sub-note-1{ color: #000 !important; font-size: 14px !important; font-weight: 400 !important; text-align: left !important;}
+    .ROS-sub-note-1 a { display: inline-block; width: 100%; color: #666; }
+    .ROS-Continer .ROS-sub-main-two span{color: #000 !important; font-size: 14px !important; font-weight: 400 !important;}
+    .ROS-Continer .ROS-sub-main-two s{color: #e01414 !important; font-size: 16px !important; font-weight: 400 !important;}
+    .ROS-manage-text-1{color: #000 !important; font-size: 14px; font-weight: 700; text-align: left}
+    .ROS-sub-label--radio-1 input:checked ~ .ROS-checkmark:after { display: block; }
+    .ROS-sub-label--radio-1 .ROS-checkmark:after { left: 6px; top: 3px; width: 7px; height: 11px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate( 45deg ); z-index: 999; }
+    .ROS-checkmark:after { content: ""; position: absolute; display: none; }
+
+    /* Layout - ELSE IF */
+    .ROS-sub-radio-main-2 { width: 100%; display: flex; justify-content: space-between; align-items: center; }
+    .ROS-sub-note-2 { font-size: 14px; color: #666666; }
+    .ROS-sub-note-2 a { display: inline-block; width: 100%; color: #666; }
+    .ROS-radio-toolbar-2 .ROS-radio-button-click-target-2 { display: inline-block; border: 2px solid #C4CDD5; padding: 6px 20px 6px 50px; cursor: pointer; border-radius: 4px; color: #000;}
+    .ROS-radio-toolbar-2 input[type="radio"]:checked+label { background-color: transparent; color:#000; border: 2px solid #000; border-radius: 4px; }
+    .ROS-sub-box-2 { border-radius: 4px; border: 1px solid #848484; padding: 15px; }
+    .ROS-design-2 { position: relative; width: 100%; display: inline-flex; }
+    .ROS-design-2 input { position: absolute; }
+    .ROS-design-2 label { width: 100%; }
+    .ROS-radio-button-2 { display: none !important; }
+    .ROS-radio-button-click-target-2 { cursor: pointer; display: inline-block; font-size: 16px; line-height: 1.5; padding: 14px 14px 14px 32px; position: relative; }
+    .ROS-radio-button-click-target-2:hover .ROS-radio-button-circle-2:before, .ROS-radio-button-click-target-2:focus .ROS-radio-button-circle-2:before { border-color: #444; }
+    .ROS-radio-button-click-target-2:active .ROS-radio-button-circle-2:before { transform: scale(1.1); }
+    .ROS-radio-button-circle-2 { border-radius: 50%; cursor: pointer; display: block; height: 10px; left: 20px; position: absolute; top: 13px; transition: background-color 0.1s ease-out; vertical-align: middle; width: 10px; }
+    .ROS-radio-button-circle-2:before { border: 1px solid #ccc; border-radius: 50%; content: ""; display: inline-block; height: 20px; position: absolute; top: -5px; transition: border-color 0.1s ease-out, transform 0.1s ease-out; left: -5px; width: 20px; }
+    .ROS-radio-button-2:checked + .ROS-radio-button-click-target-2 .ROS-radio-button-circle-2 { background-color: #177d00; }
+
+    .ROS-radio-button-2:checked + .ROS-radio-button-click-target-2 .ROS-sub-radio-plan-name-2{background-color: #000}
+
+    .ROS-radio-button-2:disabled + .ROS-radio-button-click-target-2 { cursor: not-allowed; }
+    .ROS-radio-button-2:disabled + .ROS-radio-button-click-target-2 .ROS-radio-button-circle-2:before { border-color: #e2e2e2; }
+    .ROS-radio-button-2:disabled + .ROS-radio-button-click-target-2:active .ROS-radio-button-circle-2:before { transform: none; }
+    .ROS-design-2.ROS-sub-radio-2 { width: auto; align-items: center; }
+    .ROS-design-2.ROS-sub-radio-2 .ROS-radio-button-click-target-2 { padding: 0 10px 0 35px; color: #000 !important; font-weight: 700; font-size: 14 }
+    .ROS-design-2.ROS-sub-radio-2 .ROS-radio-button-circle-2 { top: 6px; left: 6px; }
+    .ROS-margin-10px-2{ margin-top: 10px; margin-bottom: 10px; }
+    .ROS-sub-box-2 .ROS-margin-10px-2:last-child { margin-bottom: 0px; }
+    label.ROS-Label-2 { margin: 0px 0px 5px; display: inline-block; color: #000; font-size: 14px; font-weight: 700;}
+    .ROS-indiWrapper{text-align: left;}
+    .ROS-margin-top15-2{margin-top: 15px;}
+    .ROS-radio-inner-border-none-2{border: none !important;}
+    .ROS-mc-radio-2{ margin-bottom: 15px; }
+    .ROS-mb-15-2{ margin-bottom: 15px; }
+    .ROS-mt-15-2{ margin-top: 15px; }
+    .ROS-radio-toolbar-2 .ROS-mc-radio-2:nth-last-child(2){ margin-bottom: 0px !important;}
+    .ROS-Continer-2{padding: 0 5px; margin:15px 0;}
+    .ROS-Continer-2 p{font-size: 14px; color: #000; font-weight: 400; text-align: left; margin-bottom: 0px;}
+    .ROS-Continer-2 .ROS-sub-main-two span{color: #000 !important; font-size: 14px !important; font-weight: 400 !important;}
+    .ROS-Continer-2 .ROS-sub-main-two s{color: #e01414 !important; font-size: 16px !important; font-weight: 400 !important;}
+    .ROS-Continer-2 .ROS-sub-note-2{color: #000 !important; font-size: 14px !important; font-weight: 400 !important; text-align: left !important;}
+    /* Layout - ELSE */
+    .ROS-sub-box-design-3{ border-radius: 4px; border: 1px solid #848484; }
+    .ROS-design-3 { position: relative; width: 100%; display: inline-flex; }
+    .ROS-design-3 input { position: absolute; }
+    .ROS-design-3 label { width: 100%; border-bottom: 1px solid #C4CDD5; }
+    .ROS-radio-button-3 { display: none !important; }
+    .ROS-radio-button-click-target-3 { cursor: pointer; display: inline-block; font-size: 14px; line-height: 1.5; padding: 14px 14px 14px 50px; position: relative; border-color: #444; font-weight: 400;}
+    .ROS-radio-button-click-target-3:hover .ROS-radio-button-circle-3:before, .ROS-radio-button-click-target-3:focus .ROS-radio-button-circle-3:before { border-color: #0075FF; }
+    .ROS-radio-button-click-target-3:active .ROS-radio-button-circle-3:before { transform: scale(1.1); }
+    .ROS-radio-button-circle-3 { border-radius: 50%; cursor: pointer; display: block; height: 10px; left: 20px; position: absolute; top: 20px; transition: background-color 0.1s ease-out; vertical-align: middle; width: 10px; }
+    .ROS-radio-button-circle-3:before { border: 1px solid #ccc; border-radius: 50%; content: ""; display: inline-block; height: 20px; position: absolute; top: -5px; transition: border-color 0.1s ease-out, transform 0.1s ease-out; left: -5px; width: 20px; }
+    .ROS-radio-button-3:checked + .ROS-radio-button-click-target-3 .ROS-radio-button-circle-3 { background-color: #177d00; }
+    .ROS-radio-button-3:checked + .ROS-radio-button-click-target-3 .ROS-radio-button-circle-3:before  { border-color: %ACTIVE_RADIO_BUTTON_BORDER_COLOR%; }
+    .ROS-radio-button-3:disabled + .ROS-radio-button-click-target-3 { cursor: not-allowed; }
+    .ROS-radio-button-3:disabled + .ROS-radio-button-click-target-3 .ROS-radio-button-circle-3:before { border-color: #e2e2e2; }
+    .ROS-radio-button-3:disabled + .ROS-radio-button-click-target-3:active .ROS-radio-button-circle-3:before { transform: none; }
+    .ROS-design-3 label.ROS-border-bot-none{ border-bottom: 0px; color: #000 }
+    .ROS-design-3-flex { display: flex; justify-content: space-between; align-items: center; padding: 0px 15px 0 0px; border-bottom: 1px solid #C4CDD5;flex-wrap: wrap;}
+    .ROS-design-3.ROS-sub-radio-3.Ros-width-auto-3 { width: 100%; }
+    .ROS-comper-3{color: #e01414; font-size: 16px; font-weight: 400;text-decoration: line-through; }
+    .ROS-real-3 {  color: #000; font-size: 14px; font-weight: 400;  }
+    .ROS-select-3 {position: relative;}
+    .ROS-select-3:before { content: ""; position: absolute; right: 13px; width: 8px; height: 5px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5' viewBox='0 0 8 5' fill='none'%3E%3Cpath d='M3.67223 4.13965L0.140786 0.224472L7.20368 0.224471L3.67223 4.13965Z' fill='%23637381'/%3E%3C/svg%3E"); background-repeat: no-repeat; top: 21px; }
+    .ROS-select-3:after { content: ""; position: absolute; width: 1px; height: 25px; background: #767676; right: 35px; top: 8px; }
+    .ROS-option-3 { width: 100%; border-radius: 4px; border: 1px solid #C4CDD5; appearance: none; max-height: 40px;min-height: 40px !important;}
+    .ROS-manage-sub-3 {padding: 0 15px 20px 50px; text-align: left}
+    .ROS-manage-text-3{ margin-bottom: 0px; display: inline-block; font-size: 14px; margin-top: 0px; }
+    .ROS-Continer-3{padding: 0 5px; margin:15px 0;}
+    .ROS-Continer-3 p { font-size: 14px; color: #000; font-weight: 400; text-align: left; margin-bottom: 0px;}
+    .ROS-margin-top15-3{margin-top: 15px;}
+    .ROS-sub-box-design-3 .ROS-design-3-flex:last-of-type{border-bottom: none;}
+    .ROS_selling_box{width: 100%;}
+    .ROS-option-3{background-image: none;}
+    .ROS-sub-main-two-3.iwbs-price-display-3{width: 51%; display: flex;justify-content: flex-end;margin-top: 20px;}
+    .ROS-manage-text-right-3{float: right;}
+    .ROS-manage-sub-3 label.ROS-manage-text-3:first-child{ color: #000; font-size: 14px; font-weight: 700;}
+    .ROS-Continer-3 p.ROS-sub-note{color: #000 !important; font-size: 14px !important; font-weight: 400 !important; text-align: left !important; margin-top: 0px;}
+</style>

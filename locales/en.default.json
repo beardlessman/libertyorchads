@@ -1,0 +1,687 @@
+{
+  "general": {
+    "404": {
+      "title": "Oops!",
+      "button": "Go to Home",
+      "subtext": "Page not found!"
+    },
+    "accessibility": {
+      "unit_price_separator": "per",
+      "error": "Error",
+      "link_messages": {
+        "new_window": "Opens in a new window."
+      },
+      "close_header": "Close header",
+      "close": "Close"
+    },
+    "meta": {
+      "tags": "Tagged \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    },
+    "time": {
+      "days": "days",
+      "hrs": "hrs",
+      "hours": "hours",
+      "mins": "mins",
+      "minutes": "minutes",
+      "secs": "secs",
+      "seconds": "seconds"
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "home_link_title": "Back to the home page"
+    },
+    "password_page": {
+      "opening_soon": "Opening Soon"
+    },
+    "search": {
+      "title": "Search our store",
+      "placeholder": "Search products",
+      "placeholder_short": "Search",
+      "popular_searches": "Popular Searches",
+      "results_for": "results for",
+      "more_results": "More Results",
+      "heading": {
+        "one": "Search result: \"{{ terms }}\"",
+        "other": "Search results: \"{{ terms }}\""
+      },
+      "results_with_count": {
+        "one": "Found {{ count }} result for \"{{ terms }}\"",
+        "other": "Found {{ count }} results for \"{{ terms }}\""
+      },
+      "no_results": "No result for",
+      "no_results_html": "Please try a different search term or go back to the <a href=\"\/\">homepage<\/a>."
+    },
+    "newsletter_form": {
+      "confirmation": "Thanks for subscribing"
+    },
+    "payment": {
+      "options": "Payment options"
+    },
+    "notifications": {
+      "item_added": "Product added to cart successfully",
+      "required_field": "Please fill all the required fields(*) before Add To Cart!"
+    },
+    "foxkit": {
+      "add": "Add"
+    },
+    "tooltip": {
+      "not_found": "Tooltip type not found"
+    }
+  },
+  "sections": {
+    "video": {
+      "play": "Play"
+    },
+    "collection_template": {
+      "from": "From",
+      "to": "To",
+      "product_count": {
+        "one": "Showing {{ product_count }} of {{ count }} product",
+        "other": "Showing {{ product_count }} of {{ count }} products"
+      }
+    },
+    "slider": {
+      "video": {
+        "notice": "Your browser does not support the video tag."
+      }
+    },
+    "beae-6363fbe1eab2fd382f4b8be2": {
+      "ENJOYTHESWEETWORLDOFLIBERTYORCHARDS45_html": "ENJOY THE SWEET WORLD <br>OF LIBERTY ORCHARDS",
+      "MakerofApletsampCotletsOriginalFruitAndNutCandies70_html": "Maker of Aplets &amp; Cotlets<div>Original Fruit-And-Nut Candies<\/div>",
+      "Shopnow_html": "Shop now",
+      "collection_counter_ndzv39im_html": "{{count}} items",
+      "TRADITIONALCANDIES30_html": "<div>TRADITIONAL CANDIES<\/div>",
+      "viewall_title_vplrlg9d_html": "View all",
+      "OrchardBarsAssortment_html": "Orchard Bars Assortment",
+      "ORCHARDBARSASSORTMENT_html": "ORCHARD BARS ASSORTMENT",
+      "I3beoPCPABPSRCASMPaCO315_html": "Includes 3 bars each of Pineapple &amp; Coconut, Pear Almond, Blueberry &amp; Pomegranate, Strawberry &amp; Raspberry, Cherry Almond, SPICY Mango &amp; Papaya, and Cranberry Orange.<div><div><br><div><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0557\/9535\/1616\/files\/Group_224.png?v=1671147561\"><br><\/div><\/div><\/div>",
+      "add_to_cart_3d4cowkc_html": "Add to cart {sale}",
+      "out_stock_3d4cowkc_html": "Out stock",
+      "added_cart_text_3d4cowkc_html": "Added to cart",
+      "added_cart_message_3d4cowkc_html": "Added to cart",
+      "SUBSCRIBEANDGET10OFF36_html": "SUBSCRIBE AND<div>GET 10% OFF!<\/div>",
+      "newsleter_email_placeholder_4qlr2lfo_html": "Your email",
+      "submit_title_4qlr2lfo_html": "Subscribe",
+      "newsletter_success_message_4qlr2lfo_html": "Subscribed successfully!",
+      "newsletter_error_title_4qlr2lfo_html": "Opps!. An error has occurred",
+      "newsleter_email_placeholder_2dc990zj_html": "Your email",
+      "submit_title_2dc990zj_html": "Subscribe",
+      "newsletter_success_message_2dc990zj_html": "Subscribed successfully!",
+      "newsletter_error_title_2dc990zj_html": "Opps!. An error has occurred",
+      "FROMHEARTOFTHEOCHARDCOUNTRY35_html": "FROM HEART OF<br>THE OCHARD COUNTRY",
+      "MakersofApletsampCotlets40_html": "Makers of Aplets<div>&amp; Cotlets<\/div>",
+      "Americasfavoritefruitandnutconfection_html": "America's favorite fruit-and-nut confection",
+      "OcwfbteAiwsitltoClithotWSocI1tcAmwaawgiloToihettfl_html": "Our company was founded by two enterprising Armenian immigrants who settled in the little town of Cashmere, located in the heart of the Washington State orchard country. In 1920 they created Aplets, made with apples and walnuts grown in local orchards. That original idea has expanded to the full line of fruit-and-nut candies and fine food gifts that you'll find at LibertyOrchards.com.",
+      "AboutUs_html": "About Us",
+      "sold_text_vplrlg9d_html": "Sold out",
+      "sale_text_vplrlg9d_html": "Save {sale}",
+      "no_product_item_vplrlg9d_html": "There are no product yet!",
+      "product_single_sale_text_5scgq9m3_html": "Save {}",
+      "product_single_sold_text_5scgq9m3_html": "Sold out",
+      "product_single_sale_text_vplrlg9d_html": "Save {}",
+      "product_single_sold_text_vplrlg9d_html": "Sold out"
+    },
+    "beae-ajax-cart": {
+      "quantity": {
+        "label": "Quantity",
+        "input_label": "Quantity for {{ product }}",
+        "increase": "Increase quantity for {{ product }}",
+        "decrease": "Decrease quantity for {{ product }}"
+      },
+      "title": "Your cart",
+      "caption": "Cart items",
+      "remove_title": "Remove {{ title }}",
+      "subtotal": "Subtotal",
+      "new_subtotal": "New subtotal",
+      "note": "Order special instructions",
+      "checkout": "Checkout",
+      "empty": "Your cart is empty",
+      "term": "I agree with the terms and conditions",
+      "cart_error": "There was an error while updating your cart. Please try again.",
+      "cart_quantity_error_html": "You can only add [quantity] of this item to your cart.",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
+      "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
+      "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
+      "unit_price_separator": "per",
+      "view_cart": "View cart",
+      "headings": {
+        "product": "Product",
+        "price": "Price",
+        "total": "Total",
+        "quantity": "Quantity"
+      },
+      "update": "Update",
+      "price": {
+        "from_price_html": "From {{ price }}",
+        "regular_price": "Regular price",
+        "sale_price": "Sale price",
+        "unit_price": "Unit price"
+      },
+      "continue_shopping": "Continue shopping",
+      "message": {
+        "one": "{{count}} item in your cart",
+        "other": "{{count}} items in your cart"
+      }
+    },
+    "beae-about-us": {
+      "OURSTORY_html": "OUR STORY",
+      "OsswtiadaisuoaclAian151_html": "Our story started with two immigrants and<div>a dream... and is still unfolding over a century later.&nbsp;<\/div><div>It’s America in a nutshell.<\/div>",
+      "Atbot2cofMBaATaiAamtwttoCitocoWSTtpaafaniOihotnhSt_html": "At the beginning of the 20th century, our founders Mark Balaban and Armen Tertsagian arrived in America and made their way to the \"Vale of Cashmere,\" in the orchard country of Washington State. There they purchased an apple farm and named it \"Liberty Orchards\" in honor of their new homeland. Soon they were producing more apples than they could sell, and had the idea to recreate \"locoum,\" a favorite old-world confection, using their surplus fruit mixed with fresh walnuts. They named their new candy Aplets®, and a few years later they added Cotlets®, made with apricots and walnuts. Since then, Liberty Orchards has created a delicious variety of fruit confections, but we still make them much like Mark and Armen did back in 1920. We still use only the finest quality ingredients, slow-cooked to sweet perfection in small batches. We still pack each tempting morsel by hand. And, most important of all, we still have a dedication to impeccable quality that you can taste in every bite!",
+      "WHATMAKESOURCANDIESTASTESOGOOD40_html": "WHAT MAKES OUR CANDIES<br>TASTE SO GOOD?",
+      "Madewithpremiumfruitsandnuts_html": "Made with premium fruits and nuts",
+      "TiuiocawatWunfpajcftrmfffogiebTfotoabwappsaonpitsi_html": "The ingredients used in our candies are wholesome and traditional. We use natural fruit purées and juices, created from the ripest, most flavorful fruits for orchard-grown goodness in every bite. These fruits of the orchard are blended with apple pectin, pure sugar, and other natural, preservative-free ingredients, then slow-simmered in special candymaking kettles. We make our candy in small batches, and test the recipe every few minutes as the candy cooks. When the consistency is just right, we add fresh crunchy nuts, hand-sorted for exceptional quality.",
+      "natural_html": "natural",
+      "orchardgrown_html": "orchard-grown",
+      "preservativefree_html": "preservative-free ",
+      "Adedicationtoqualityfromthebeginning_html": "A dedication to quality from the beginning",
+      "Bi1wwsmodhciwsutttttdtrSwofsewwtutftgaLOitoccrtndt_html": "Back in 1920 when we started making our delicious homestyle candies, it wasn't so unusual to take the time to do things right. So when our founders started experimenting with ways to use the fruit they grew at Liberty Orchards in their old country candy recipe, they naturally did things the homestyle way. What is unusual, is that now, over 100 years later, we still make our candies by the same time honored methods, using the same secret family recipe.",
+      "familyrecipe_html": "family recipe",
+      "over100years_html": "over 100 years",
+      "TheuniquelydelicioustasteofLibertyOrchards51_html": "The uniquely delicious<br>taste of Liberty Orchards",
+      "nostalgic_html": "nostalgic",
+      "homestyle_html": "home-style",
+      "Handcraftedcandies_html": "Hand-crafted candies",
+      "01_html": "01",
+      "Slowcookedtoperfectionnbsp_html": "Slow-cooked to perfection!&nbsp;",
+      "Fwaopitdskwtacisbacmuohsactia_html": "First we add our premium ingredients to double-jacketed steam kettles where they are cooked in small batches and carefully monitored until our hallmark so and chewy texture is achieved.&nbsp;",
+      "02_html": "02",
+      "Carefullypouredforcooling_html": "Carefully poured for cooling! \u001f",
+      "TmcipiwptFtittactsAbcesistagcwieuibp_html": "The molten candy is poured into wooden plastic-lined trays. From there it’s taken to a cooler to set. After being chilled, each slab is sent through a guillotine cutter where it ends up in bite-sized pieces.",
+      "03_html": "03",
+      "Eachtastymorselpackedbyhandnbsp_html": "Each tasty morsel packed by hand!&nbsp;",
+      "AttccipstpasdapltncpEpicfpstpipt_html": "After tumbling the cut candy in powdered sugar, the pieces are sent down a packing line to nimble-fingered candy packers. Each piece is checked for proper sizing then packed into plastic trays.&nbsp;",
+      "04_html": "04",
+      "Boxedwrappedandinspected_html": "Boxed, wrapped, and inspected!",
+      "Aptctrteotlwtapibcwapdwictdtaibblic_html": "After packing, the candy trays reach the end of the line where they are placed in boxes, coded with a pack date, wrapped in cellophane, then delivered to an inspector before being loaded into cases.",
+      "TourOurCandyFactory26_html": "Tour Our<br>Candy Factory!",
+      "vwgyabgihwmofc292_html": "<span data-metadata=\"<!--(figmeta)eyJmaWxlS2V5IjoiSUtsS0VvclFEYnpHUlR3UmVTTjJ4bCIsInBhc3RlSUQiOjU1MTAzMzQxNCwiZGF0YVR5cGUiOiJzY2VuZSJ9Cg==(\/figmeta)-->\"><\/span><span style=\"white-space: pre-wrap;\">The video  will give you a behind-the-scenes glimpse into how we make our famous candies<\/span>",
+      "VisitUs_html": "Visit Us",
+      "WwvtoRSaTCidCW93_html": "We welcome visitors to our Retail Store and Tour Center <br>in downtown Cashmere, Washington!",
+      "117MissionAveCashmereWA98815UnitedStates53_html": "117 Mission Ave, Cashmere,<br>WA 98815, United States",
+      "SeeonGoogleMap428_html": "<a href=\"https:\/\/www.google.com\/maps\/place\/Aplets+%26+Cotlets+Candy+Kitchen\/@47.5213971,-120.4711048,18z\/data=!3m1!5s0x549a4ad3449d6af7:0xb7b61ab129faae54!4m9!1m2!2m1!1sliberty+orchards+near+Cashmere,+WA!3m5!1s0x549a4ad344970d81:0x24593040bdaea7ce!8m2!3d47.521397!4d-120.468916!15sCiJsaWJlcnR5IG9yY2hhcmRzIG5lYXIgQ2FzaG1lcmUsIFdBWiMiIWxpYmVydHkgb3JjaGFyZHMgbmVhciBjYXNobWVyZSB3YZIBC2NhbmR5X3N0b3Jl4AEA\">See on Google Map<\/a><br>",
+      "18002313242_html": "1-800-231-3242",
+      "Pleasecheckbackbeforeyourvisittoconfirmhours_html": "Please check back before your visit to confirm hours",
+      "HyctttotCLashocamfhnthbAdftsFcffofYafawaogadftPNia_html": "Here you can take the \"sweetest tour on the Cascade Loop\" and see how our candies are made from hand-sorted nuts to hand-packed boxes. And don't forget to sample FREE candies fresh from our factory! You'll also find a wide assortment of gifts and delicacies from the Pacific Northwest in addition to the many varieties of America's Favorite Fruit-And-Nut Candy! See below for hours of operation.",
+      "JanuarythroughMarch_html": "January through March",
+      "MonFri900to500WeekendsClosed48_html": "Mon-Fri: 9:00 to 5:00<div>Weekends: Closed<\/div>",
+      "AprilthroughDecember_html": "April through December",
+      "MonFri900to500nbspnbspWeekends1000to40067_html": "Mon-Fri: 9:00 to 5:00&nbsp;&nbsp;<div>Weekends: 10:00 to 4:00<\/div>",
+      "Holidays_html": "Holidays",
+      "Closedorreducedhours_html": "Closed or reduced hours"
+    },
+    "beae-contact-us": {
+      "Contactus_html": "Contact us",
+      "117MissionAveCashmereWA98815UnitedStates53_html": "117 Mission Ave, Cashmere,<br>WA 98815, United States",
+      "SeeonGoogleMap428_html": "<a href=\"https:\/\/www.google.com\/maps\/place\/Aplets+%26+Cotlets+Candy+Kitchen\/@47.5213971,-120.4711048,18z\/data=!3m1!5s0x549a4ad3449d6af7:0xb7b61ab129faae54!4m9!1m2!2m1!1sliberty+orchards+near+Cashmere,+WA!3m5!1s0x549a4ad344970d81:0x24593040bdaea7ce!8m2!3d47.521397!4d-120.468916!15sCiJsaWJlcnR5IG9yY2hhcmRzIG5lYXIgQ2FzaG1lcmUsIFdBWiMiIWxpYmVydHkgb3JjaGFyZHMgbmVhciBjYXNobWVyZSB3YZIBC2NhbmR5X3N0b3Jl4AEA\">See on Google Map<\/a><br>",
+      "18008885696_html": "1-800-888-5696",
+      "USCanada_html": "US\/Canada",
+      "15097821000_html": "1-509-782-1000",
+      "Othercountries_html": "Other countries",
+      "servicelibertyorchardscom_html": "service@libertyorchards.com",
+      "Customerservice_html": "Customer service",
+      "Helpwithyourorderandanyquestion40_html": "Help with your order<br>and any question",
+      "15097824776_html": "1-509-782-4776",
+      "FaxOrderLine25_html": "<div>Fax Order Line<\/div>",
+      "WholesaleServices67_html": "<span style=\"display: inline !important;\">Wholesale Services<\/span>",
+      "Wanttosellourcandiesinyourstore50_html": "Want to sell our\n<div>candies in your store?<\/div>",
+      "SalesLibertyorchardsCom_html": "Sales@Libertyorchards.Com",
+      "15097821487_html": "1-509-782-1487",
+      "18002313242_html": "1-800-231-3242",
+      "15097822191_html": "1-509-782-2191",
+      "RetailStore_html": "Retail Store",
+      "Informationaboutvisitingourfactoryandstore_html": "Information about visiting our factory and store",
+      "storelibertyorchardscom_html": "store@libertyorchards.com",
+      "JanuarythroughMarch_html": "January through March",
+      "MonFri900to500WeekendsClosed59_html": "<div>Mon-Fri: 9:00 to 5:00<\/div><div>Weekends: Closed<\/div>",
+      "AprilthroughDecember_html": "April through December",
+      "MonFri900to500nbspnbspWeekends1000to40078_html": "<div>Mon-Fri: 9:00 to 5:00&nbsp;&nbsp;<\/div><div>Weekends: 10:00 to 4:00<\/div>",
+      "Pleasecheckbackbeforeyourvisittoconfirmhours_html": "Please check back before your visit to confirm hours",
+      "1800888569691_html": "<span style=\"text-transform: capitalize; display: inline !important;\">1-800-888-5696<\/span>",
+      "USCanada62_html": "<span style=\"display: inline !important;\">US\/Canada<\/span><br>",
+      "1509782100091_html": "<span style=\"text-transform: capitalize; display: inline !important;\">1-509-782-1000<\/span>",
+      "Othercountries68_html": "<span style=\"display: inline !important;\">Other countries<\/span><br>",
+      "beae-ry83dy9j_Wanttosellourcandiesinyourstore50_html": "Want to sell our\r<div>candies in your store?<\/div>",
+      "1800231324291_html": "<span style=\"text-transform: capitalize; display: inline !important;\">1-800-231-3242<\/span>",
+      "1509782219191_html": "<span style=\"text-transform: capitalize; display: inline !important;\">1-509-782-2191<\/span>",
+      "Informationaboutvisitingourfactoryandstore63_html": "Information about visiting our factory and store<div><br><\/div>",
+      "StoreLibertyorchardsCom_html": "Store@Libertyorchards.Com",
+      "JanuarythroughMarch70_html": "<span style=\"display: inline !important;\">January through March<\/span>",
+      "AprilthroughDecember75_html": "<span style=\"display: inline !important;\">April through December<\/span><br>",
+      "Pleasecheckbackbeforeyourvisittoconfirmhours680_html": "<div style=\"--tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-scroll-snap-strictness:proximity; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgba(59,130,246,0.5); --tw-ring-offset-shadow:0 0 transparent; --tw-ring-shadow:0 0 transparent; --tw-shadow:0 0 transparent; --tw-shadow-colored:0 0 transparent; --lh-font-family: &quot;Poppins&quot;  !important; --lh-title-font-family: &quot;Poppins&quot;  !important; --lh-font-size: 14px  !important; --lh-color: #14C39B  !important; --lh-color-rgb: 20, 195, 155  !important;\">Please check back before your visit to confirm hours<\/div>"
+    },
+    "beae-collection-template-beae": {
+      "applied_title_aol0s1fc_html": "Applied filters",
+      "clear_all_aol0s1fc_html": "Clear all",
+      "filter_selected_text_aol0s1fc_html": "{{count}} selected",
+      "reset_filter_aol0s1fc_html": "Reset",
+      "Filter_html": "Filter",
+      "toolbar_collection_counter_lqarok1u_html": "{{count}} products",
+      "no_product_item_s699nzhe_html": "There are no product yet!",
+      "undefined_s699nzhe_html": "Load more",
+      "add_to_cart_s699nzhe_html": "+ Add to cart",
+      "out_stock_s699nzhe_html": "Out of stock",
+      "added_cart_text_s699nzhe_html": "Added to cart",
+      "added_cart_message_s699nzhe_html": "Add to cart success",
+      "product_single_sale_text_s699nzhe_html": "Save {}",
+      "product_single_sold_text_s699nzhe_html": "(Sold out)"
+    },
+    "beae-preview-template-home": {
+      "beae-9mk2b2d3165_html": "<div><br><\/div><div><br><\/div><div><br><\/div><div><br><\/div><div><br><\/div><div><br><\/div><div><br><\/div><div><br><\/div><div><br><\/div><div><br><\/div><div><br><\/div>",
+      "beae-ubfanigx75_html": "<div><br><\/div><div><br><\/div><div><br><\/div><div><br><\/div><div><br><\/div>",
+      "Catalog_html": "Catalog",
+      "Originals_html": "Originals",
+      "Minis_html": "Minis",
+      "Bars_html": "Bars",
+      "DrageeGummy_html": "Dragee&Gummy",
+      "NutFree_html": "Nut Free",
+      "ValuePack_html": "Value Pack",
+      "SugarFree_html": "Sugar Free",
+      "ShopAll_html": "Shop All",
+      "Candies_html": "Candies",
+      "DraggeGummy_html": "Dragge&Gummy",
+      "TasteOur_html": "Taste Our",
+      "heading_kr09k1tq_html": "Best Selling Teas",
+      "viewall_title_kr09k1tq_html": "View all",
+      "TRADITIONALCANDIES30_html": "<div>TRADITIONAL CANDIES<\/div>",
+      "sold-text_vplrlg9d_html": "Sold out",
+      "sale-text_vplrlg9d_html": "Save {sale}",
+      "no_product_item_vplrlg9d_html": "There are no product yet!",
+      "add_to_cart_kr09k1tq_html": "Add to cart",
+      "out_stock_kr09k1tq_html": "Out of stock",
+      "added_cart_text_kr09k1tq_html": "Added to cart",
+      "added_cart_message_kr09k1tq_html": "Add to cart success",
+      "product_single_sale_text_kr09k1tq_html": "Save {}"
+    }
+  },
+  "blogs": {
+    "article": {
+      "by_author": "by",
+      "posted_in": "on",
+      "tags": "Tags:",
+      "read_more": "Read more",
+      "related_title": "Related Articles",
+      "next_post": "Next",
+      "previous_post": "Previous"
+    },
+    "comments": {
+      "title": "Leave a Comment",
+      "sub_title": "Your email address will not be published.",
+      "name": "Your Name*",
+      "email": "Your Email*",
+      "message": "Comment",
+      "post": "Submit Now",
+      "reply": "Reply",
+      "at_time": "at",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    }
+  },
+  "sidebar": {
+    "clear_all": "CLEAR ALL"
+  },
+  "cart": {
+    "general": {
+      "title": "Shopping Cart",
+      "remove": "Remove",
+      "note": "Start typing here",
+      "drawer_note": "Notes",
+      "shipping": "Shipping",
+      "drawer_coupon": "Coupon",
+      "subtotal": "Subtotal",
+      "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
+      "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
+      "enter_discount_code": "Enter discount code here",
+      "checkout": "Check Out",
+      "viewcart": "View Cart",
+      "empty": "Your cart is currently empty.",
+      "coupon_title": "Add a discount code",
+      "estimate_shipping_title": "Estimate shipping rates",
+      "estimate_shipping_button": "Calculate shipping rates",
+      "note_title": "Notes to the seller (optional)",
+      "cancel": "Cancel",
+      "save": "Save",
+      "zipcode_validate": "Zip code can't be blank",
+      "shipping_rates_result": "We found {{count}} shipping rate(s) for your address, choose the rate at checkout",
+      "no_found_shipping_rate": "There are no shipping rates for your address.",
+      "recommend_title": "Recommendation for you"
+    },
+    "label": {
+      "product": "Product",
+      "price": "Price",
+      "quantity": "Quantity",
+      "qty": "Qty",
+      "total": "Total",
+      "regular_total": "Regular total",
+      "discounted_total": "Discounted total",
+      "product_details": "Product details"
+    }
+  },
+  "collections": {
+    "general": {
+      "no_matches": "Sorry, there are no products in this collection",
+      "collection_items": "{{ title }} items"
+    },
+    "sidebar": {
+      "clear_all": "Clear all"
+    },
+    "toolbar": {
+      "show_filter": "Filter",
+      "view_layout": "View",
+      "view_list": "List",
+      "grid_2cloumns": "2 columns",
+      "grid_3cloumns": "3 columns",
+      "grid_4cloumns": "4 columns",
+      "grid_5cloumns": "5 columns"
+    },
+    "sorting": {
+      "title": "Sort by"
+    },
+    "paginate": {
+      "load_more": "Load More"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "message": "Message",
+      "send": "Submit Now",
+      "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
+      "save_infor_message": "Save my name, email, and website in this browser for the next time I comment."
+    },
+    "ask-form": {
+      "heading": "Ask a Question",
+      "name": "Your Name",
+      "email": "Your Email",
+      "phone": "Your Phone Number",
+      "message": "Your Message",
+      "required-fields": "Required fields",
+      "send": "Submit Now",
+      "post_success": "Thanks for asking. We'll get back to you as soon as possible."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "My Account",
+      "page_title": "Account",
+      "dashboard": "Dashboard",
+      "addresses": "Addresses",
+      "wishlist": "Wishlist",
+      "log_out": "Log Out",
+      "details": "Account Details",
+      "name": "Name",
+      "email": "Email",
+      "view_addresses": "View Addresses",
+      "return": "Return to Account Details",
+      "greeting": "Hello",
+      "not": "not"
+    },
+    "activate_account": {
+      "title": "Activate Account",
+      "subtext": "Create your password to activate your account.",
+      "password": "Password",
+      "password_confirm": "Confirm Password",
+      "submit": "Activate Account",
+      "cancel": "Decline Invitation"
+    },
+    "addresses": {
+      "title": "Your Addresses",
+      "your_addresses": "Your Addresses",
+      "default": "Default Address",
+      "add_new": "Add a New Address",
+      "name": "Name",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "company": "Company",
+      "address1": "Address",
+      "address2": "Apartment, suite, etc.",
+      "city": "City",
+      "country": "Country",
+      "province": "Province",
+      "zip": "Postal\/Zip Code",
+      "phone": "Phone",
+      "set_default": "Set as default address",
+      "update": "Update Address",
+      "cancel": "Cancel",
+      "edit": "Edit",
+      "delete": "Delete",
+      "delete_confirm": "Are you sure you wish to delete this address?"
+    },
+    "login": {
+      "title": "Log In",
+      "email": "Email",
+      "password": "Password",
+      "forgot_password": "Forgot your password?",
+      "sign_in": "Sign In",
+      "new_customer": "New Customer"
+    },
+    "orders": {
+      "title": "Order History",
+      "order_number": "Order",
+      "date": "Date",
+      "payment_status": "Payment Status",
+      "fulfillment_status": "Fulfillment Status",
+      "total": "Total",
+      "make_your_first_order": "Make your first order.",
+      "none": "You haven't placed any orders yet."
+    },
+    "order": {
+      "title": "Order {{ name }}",
+      "date": "Placed on {{ date }}",
+      "cancelled": "Order Cancelled on {{ date }}",
+      "cancelled_reason": "Reason: {{ reason }}",
+      "billing_address": "Billing Address",
+      "fulfilled_at_html": "Fulfilled {{ date }}",
+      "payment_status": "Payment Status",
+      "shipping_address": "Shipping Address",
+      "fulfillment_status": "Fulfillment Status",
+      "discounts": "Discounts",
+      "shipping": "Shipping",
+      "tax": "Tax",
+      "product": "Product",
+      "sku": "SKU",
+      "price": "Price",
+      "quantity": "Quantity",
+      "total": "Total",
+      "track_shipment": "Track shipment",
+      "subtotal": "Subtotal",
+      "discount": "Discount"
+    },
+    "recover_password": {
+      "title": "Reset your password",
+      "email": "Email",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "subtext": "We will send you an email to reset your password.",
+      "success": "We've sent you an email with a link to update your password."
+    },
+    "reset_password": {
+      "title": "Reset account password",
+      "subtext": "Enter a new password for {{ email }}",
+      "password": "Password",
+      "password_confirm": "Confirm Password",
+      "submit": "Reset Password"
+    },
+    "register": {
+      "title": "Register",
+      "description": "Sign up for early Sale access plus tailored new arrivals, trends and promotions. To opt out, click unsubscribe in our emails.",
+      "first_name": "First Name",
+      "last_name": "Last Name"
+    }
+  },
+  "homepage": {
+    "onboarding": {
+      "blog_title": "Your post's title",
+      "blog_excerpt": "Your store hasn’t published any blog posts yet. A blog can be used to talk about new product launches, tips, or other news you want to share with your customers.",
+      "product_title": "Example Product Title",
+      "product_description": "This area is used to describe your product’s details. Tell customers about the look, feel, and style of your product. Add details on color, materials used, sizing, and where it was made.",
+      "collection_title": "Example Collection Title",
+      "no_content": "This section doesn’t currently include any content. Add content to this section using the sidebar.",
+      "blog_readmore": "Read more",
+      "blog_tag": "Minimog"
+    }
+  },
+  "layout": {
+    "back_to_shopping": "Back to shopping",
+    "back": "Back",
+    "wishlist": {
+      "title": "Wishlist",
+      "no_products": "No products were added to the wishlist page."
+    },
+    "compare": {
+      "title": "Compare",
+      "no_products": "No products were added to the compare page."
+    },
+    "cart": {
+      "title": "Cart"
+    },
+    "customer": {
+      "account": "Account",
+      "log_in": "Log in"
+    }
+  },
+  "pages": {
+    "find_a_store": "Find a Store"
+  },
+  "products": {
+    "product": {
+      "regular_price": "Regular price",
+      "sold_out": "Sold Out",
+      "availability": "Availability",
+      "brand": "Brand",
+      "colors": "Colors",
+      "in_stock": "In Stock",
+      "out_of_stock": "Out of stock",
+      "unavailable": "Unavailable",
+      "on_sale": "On Sale",
+      "from_text_html": "From {{ price }}",
+      "quantity": "Quantity",
+      "add_to_cart": "Add to cart",
+      "add_to_wishlist": "Add to wishlist",
+      "remove_from_wishlist": "Remove from wishlist",
+      "add_to_compare": "Compare",
+      "add_a_question": "Ask a question",
+      "remove_from_compare": "Remove from compare",
+      "quick_add": "Add To Cart",
+      "zoom_in": "Zoom in",
+      "quick_view": "Quick view",
+      "collection": "Collection",
+      "decrease_quantity": "Decrease quantity of {{ title }} by one",
+      "increase_quantity": "Increase quantity of {{ title }} by one",
+      "include_taxes": "Tax included.",
+      "price": {
+        "from_price_html": "From {{ price }}",
+        "regular_price": "Regular price",
+        "sale_price": "Sale price",
+        "unit_price": "Unit price",
+        "save_price_html": "Save <span data-sale-value>{{ amount }}<\/span>"
+      },
+      "preorder": "Pre-order",
+      "product_quantity": "Product quantity",
+      "product_recommendation_heading": "You Might Also Like",
+      "product_reviews_heading": "Ratings and Reviews",
+      "quantity_minimum_message": "Quantity must be 1 or more",
+      "not_enough_items_message": "Not enough items available. Only {{ quantity }} left.",
+      "sale_price": "Sale price",
+      "see_more_options": "See {{ count }} more option(s)",
+      "sold_out_items_message": "The product is already sold out.",
+      "view_details": "View details",
+      "vendor": "Vendor",
+      "type": "Type",
+      "sku": "SKU",
+      "collections": "Collections",
+      "social_share": "Share",
+      "copy_link": "Copy link",
+      "unit_price_label": "Unit price",
+      "size_guide": "Size guide",
+      "save_html": "Save <span class=\"sf-currency sf-currency--saved font-medium\" data-saved-price>{{ amount }}<\/span>",
+      "recently_viewed_products": "Recently viewed products",
+      "select_options": "Select options",
+      "sold": "Sold",
+      "available": "Available",
+      "xr_button": "View in your space",
+      "xr_button_label": "View in your space, loads item in augmented reality window",
+      "pickup_availability": {
+        "view_store_info": "View store information",
+        "check_other_stores": "Check availability at other stores",
+        "pick_up_available": "Pickup available",
+        "pick_up_available_at_html": "Pickup available at <span>{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Pickup currently unavailable at <span>{{ location_name }}<\/span>",
+        "unavailable": "Couldn't load pickup availability",
+        "refresh": "Refresh"
+      }
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Here's your {{ value }} gift card for {{ shop }}!",
+      "subtext": "Your gift card",
+      "gift_card_code": "Gift card code",
+      "shop_link": "Continue shopping",
+      "remaining_html": "Remaining {{ balance }}",
+      "add_to_apple_wallet": "Add to Apple Wallet",
+      "qr_image_alt": "QR code — scan to redeem gift card",
+      "copy_code": "Copy code",
+      "expired": "Expired",
+      "copy_code_success": "Code copied successfully",
+      "print_gift_card": "Print"
+    }
+  },
+  "date_formats": {
+    "month_day_year": "%B %d, %Y"
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Regular price",
+        "sold_out": "Sold out",
+        "unavailable": "Unavailable",
+        "on_sale": "Sale",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to cart",
+        "back_to_collection": "Back to {{ title }}",
+        "view_details": "View details"
+      }
+    },
+    "article": {
+      "tags": "Tags:",
+      "all_topics": "All topics",
+      "by_author": "by {{ author }}",
+      "posted_in": "Posted in",
+      "read_more": "Read more",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "password_link": "Enter using password"
+    }
+  }
+}

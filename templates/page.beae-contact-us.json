@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "beae-contact-us": {
+      "type": "beae-contact-us",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "beae-contact-us"
+  ]
+}

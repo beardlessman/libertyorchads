@@ -1,0 +1,106 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-page-header",
+      "custom_css": [
+        "h1 {font-size: 32px;}"
+      ],
+      "settings": {
+        "container": "container",
+        "layout": "inside",
+        "header_height": "small",
+        "text_alignment": "center",
+        "vertical_alignment": "center",
+        "text_color": "dark",
+        "bg_color": "#fff6e5",
+        "enable_parallax": false,
+        "upper_title": false,
+        "show_desc": true,
+        "collection_all_desc": ""
+      }
+    },
+    "main": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "c4f36b93-4175-4b37-b36c-483aaae10428": {
+          "type": "collections",
+          "settings": {
+            "title": "Shop by Collection",
+            "menu": "catalog-collections",
+            "show_image": false,
+            "use_accordion": true,
+            "open_filtergroup": true
+          }
+        },
+        "0f83622a-4be5-487a-b832-ee74e5e5099c": {
+          "type": "filter",
+          "settings": {
+            "design_filtergroup": "default",
+            "title": "Filter By Preference",
+            "filtergroup": "Chocolate Dipped, Value Pack,  Minis, Dragee, Tray, Gummy, Bars Mix,",
+            "show_label": false,
+            "use_accordion": false,
+            "open_filtergroup": true
+          }
+        },
+        "26ef6509-772d-4c44-bd90-efc089bd9355": {
+          "type": "filter",
+          "settings": {
+            "design_filtergroup": "default",
+            "title": "Filter By Diet",
+            "filtergroup": "Sugar Free, Nut Free, Vegan,",
+            "show_label": false,
+            "use_accordion": false,
+            "open_filtergroup": true
+          }
+        }
+      },
+      "block_order": [
+        "c4f36b93-4175-4b37-b36c-483aaae10428",
+        "0f83622a-4be5-487a-b832-ee74e5e5099c",
+        "26ef6509-772d-4c44-bd90-efc089bd9355"
+      ],
+      "custom_css": [
+        ".f-price-item .f-price-item--regular {font-weight: 600;}"
+      ],
+      "settings": {
+        "container": "container",
+        "grid_layout": "grid",
+        "grid_columns": "5",
+        "show_columns_switcher": false,
+        "pagination_limit": 12,
+        "paginate_type": "infinite",
+        "show_sorting": true,
+        "show_filter": true,
+        "filters_type": "tags_filter",
+        "sidebar": "fixed",
+        "sidebar_title": "",
+        "limit_height_widget": false,
+        "limit_height": 310,
+        "change_product_variant_on_fitlering": true,
+        "show_product_count": true,
+        "collapsed_groups": "Brand, Vendor, Size",
+        "color_swatches": "color,colour,couleur,farbe"
+      }
+    },
+    "recent-viewed": {
+      "type": "recent-viewed-products",
+      "custom_css": [
+        "h2 {font-size: 32px;}"
+      ],
+      "settings": {
+        "container": "container",
+        "heading": "Recently Viewed Products",
+        "limit": 8,
+        "columns": 5,
+        "column_gap": 30,
+        "enable_slider": true
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "main",
+    "recent-viewed"
+  ]
+}

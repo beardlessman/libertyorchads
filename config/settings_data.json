@@ -1,0 +1,308 @@
+{
+  "current": {
+    "favicon": "shopify:\/\/shop_images\/LOFavicon.png",
+    "container_width": 1280,
+    "container_fluid_offset": 65,
+    "spacing_sections": 25,
+    "color_primary": "#000",
+    "color_main_bg": "#fff6e5",
+    "color_field_bg": "#fff6e5",
+    "color_sub_text": "#666666",
+    "color_btn_bg": "#004b14",
+    "color_btn_text": "#ffffff",
+    "color_btn_bg_hover": "#017c22",
+    "product_title_color": "#161d25",
+    "color_annoucement_bg": "#004b14",
+    "color_annoucement_text": "#ffffff",
+    "color_topbar_bg": "#000000",
+    "color_header_bg": "#fff6e5",
+    "color_header_link": "#161d25",
+    "color_header_transparent": "#ffffff",
+    "color_cart_wishlist_count": "#ffffff",
+    "bg_cart_wishlist_count": "#da3f3f",
+    "color_footer_bg": "#194b00",
+    "color_footer_text": "#fcfcfc",
+    "color_footer_subtext": "#efefef",
+    "color_footer_link": "#efefef",
+    "color_footer_link_hover": "#ffffff",
+    "color_footer_bg_mb": "#004b14",
+    "color_footer_bottom_bg": "#194b00",
+    "color_footer_bottom_text": "#ffffff",
+    "color_footer_bottom_bg_mb": "#004b14",
+    "color_border": "#004b14",
+    "img_overlay_opacity": 20,
+    "type_base_font": "poppins_n4",
+    "use_custom_font_body": false,
+    "custom_body_font": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-Light.ttf?v=1618297125@300\nhttps:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-Regular.ttf?v=1618297125@400\nhttps:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-Medium.ttf?v=1618297125@500\nhttps:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-SemiBold.ttf?v=1618297125@600\nhttps:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-Bold.ttf?v=1618297125@700",
+    "custom_body_weight": "500",
+    "type_base_size": 17,
+    "type_header_font": "poppins_n5",
+    "use_custom_font_heading": false,
+    "custom_heading_font": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-Light.ttf?v=1618297125@300\nhttps:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-Regular.ttf?v=1618297125@400\nhttps:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-Medium.ttf?v=1618297125@500\nhttps:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-SemiBold.ttf?v=1618297125@600\nhttps:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-Bold.ttf?v=1618297125@700",
+    "custom_heading_weight": "500",
+    "pcard_layout": "1",
+    "pcard_alignment": "left",
+    "pcard_image_ratio": "4\/3",
+    "show_cart_button": true,
+    "show_wishlist_button": false,
+    "show_compare_button": false,
+    "show_badge_soldout": true,
+    "show_badge_sale": false,
+    "show_vendor": false,
+    "product_colors": "red: #FF6961,\nyellow: #FDDA76,\nblack: #000000,\nblack band: #000000,\nblue: #8DB4D2,\ngreen: #C1E1C1,\npurple: #B19CD9,\nsilver: #EEEEEF,\nwhite: #FFFFFF,\nbrown: #836953,\nlight brown: #B5651D,\ndark turquoise: #23cddc,\norange: #FFB347,\ntan: #E9D1BF,\nviolet: #B490B0,\npink: #FFD1DC,\ngrey: #E0E0E0,\nsky: #96BDC6,\npale leaf: #CCD4BF,\nlight blue: #b1c5d4,\ndark grey: #aca69f,\nbeige: #EBE6DB,\nbeige band: #EED9C4,\ndark blue: #063e66,\ncream: #FFFFCC,\nlight pink: #FBCFCD,\nmint: #bedce3,\ndark gray: #3A3B3C,\nrosy brown: #c4a287,\nlight grey:#D3D3D3,\ncopper: #B87333,\nrose gold: #ECC5C0,\nnight blue: #151B54,\ncoral: #FF7F50,\nlight purple: #C6AEC7",
+    "contact_phone_number": "+1 (800) 888-5696",
+    "contact_email": "service@libertyorchards.com",
+    "social_twitter_link": "https:\/\/twitter.com\/home",
+    "social_facebook_link": "https:\/\/facebook.com\/",
+    "social_pinterest_link": "https:\/\/pinterest.com\/",
+    "social_instagram_link": "https:\/\/instagram.com\/",
+    "enable_cart_drawer": false,
+    "cart_drawer_show_accelerated_button": false,
+    "cart_notes_enable": false,
+    "discount_code_enable": false,
+    "cart_estimate_shipping": false,
+    "popular_search_queries": "Sugar Free, Nut Free, Turkish Delights,",
+    "wishlist_page": "wishlist",
+    "product_compare_page": "",
+    "gm_api": "AIzaSyB7p-I6Kswm1ibomcg8VAZUaw_-JikqPRs",
+    "instagram_token": "",
+    "custom_css": ".sf__footer-form-newsletter input.form-control {\n    background: #fff;\n}\n.sf-home__slideshow .slide__block-title {\n  font-size: 100px;\n  font-weight: 800;\n  letter-spacing: 12.5px;\n  text-transform: uppercase;\n}\n.sf-slider__arrows button {\n  border-color: white;\n}\n.sf__slide-footer {\n  font-weight: 600;\n}\n.sf-slider__arrows button svg path {\n  fill: #fff;\n}\n\n.sf-home__collection-list sup {\n  top: -1em;\n  right: -0.2em;\n}\n\n.sf__footer-block-our_store .social-media-links {\n  margin: 0px -28px;\n  margin-top: 25px;\n}\n.sf__footer-block-our_store .social-media-links a {\n  padding: 0 20px;\n}\n.sf-home__iconbox {\n  border-top: 1px solid #eeeeee;\n}\n.sf-home__iconbox .section-py {\n  padding-top: 40px;\n  padding-bottom: 40px;\n}\n.sf-home__iconbox .sf-icon-box__text h3 {\n  font-weight: 500;\n  font-size: 20px;\n}\n.sf-home__iconbox .sf-icon-box__text .rte {\n  color: #777777;\n}\n.sf-home__collection-list .collection-card__info h3:hover {\n  color: #666666;\n}\n@media (min-width: 768px) {\n  .sf-home__collection-list .section-my {\n    margin-top: 30px;\n  }\n}\n\n@media screen and (max-width: 767px) {\n  .sf-home__iconbox {\n    border-top: 0;\n  }\n  .sf-home__iconbox .section-py {\n    padding-top: 0;\n  }\n  .sf-home__collection-list .section__header {\n    text-align: center;\n  }\n  .sf-home__collection-list .section__header .section__description {\n    display: none;\n  }\n  .sf-home__slideshow .slide__block-title {\n    font-weight: 800;\n    font-size: 36px;\n    line-height: 52px;\n    letter-spacing: 5px;\n    text-transform: uppercase;\n  }\n}\n\n@media (max-width: 576px) {\n  .sf-btn-mb__fullwidth .sf__btn:not(.sf__btn-link) {\n    width: 100%;\n  }\n}",
+    "wishlist_app": "theme",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Group.png",
+    "checkout_body_background_color": "#fff6e5",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_color": "#edeae4",
+    "checkout_accent_color": "#004b14",
+    "checkout_button_color": "#004b14",
+    "sale_popup_collection": "sale",
+    "size_chart": "size-guide",
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "fe30f563-8198-4629-89c3-abca20919d88": {
+            "type": "product-list",
+            "settings": {
+              "heading": "Shop",
+              "container": "inherit",
+              "stretch_width": true,
+              "collection": "check-our-new-products",
+              "limit": 6,
+              "columns": 3
+            }
+          },
+          "d2a010ba-7846-4215-8250-43aab74bf0ce": {
+            "type": "custom_html",
+            "disabled": true,
+            "settings": {
+              "heading": "Home",
+              "container": "container",
+              "html": ""
+            }
+          },
+          "64d3ad53-b1b2-455c-b32f-a193482589f2": {
+            "type": "product-list",
+            "disabled": true,
+            "settings": {
+              "heading": "Products",
+              "container": "container-fluid",
+              "stretch_width": false,
+              "collection": "this-weeks-highlights",
+              "limit": 6,
+              "columns": 2
+            }
+          },
+          "8510ad1c-e6c3-47fe-802a-45f1f526831f": {
+            "type": "custom_html",
+            "disabled": true,
+            "settings": {
+              "heading": "Features",
+              "container": "inherit",
+              "html": ""
+            }
+          }
+        },
+        "block_order": [
+          "fe30f563-8198-4629-89c3-abca20919d88",
+          "d2a010ba-7846-4215-8250-43aab74bf0ce",
+          "64d3ad53-b1b2-455c-b32f-a193482589f2",
+          "8510ad1c-e6c3-47fe-802a-45f1f526831f"
+        ],
+        "settings": {
+          "header_design": "logo-center-menu-left",
+          "container": "container",
+          "header_sticky": true,
+          "transparent_on_top": false,
+          "logo_text": "Liberty Orchards",
+          "logo": "shopify:\/\/shop_images\/Group.png",
+          "logo_svg": "",
+          "logo_mobile_svg": "",
+          "logo_transparent_svg": "",
+          "logo_max_width": 350,
+          "sticky_logo_max_width": 240,
+          "mobile_logo_max_width": 135,
+          "main_menu": "main-menu",
+          "secondary_menu": "menu-right",
+          "mobile_menu": "",
+          "uppercase_parent_level": false,
+          "search": "show_icon",
+          "show_account_icon": true,
+          "show_cart_icon": true,
+          "show_wishlist_icon": true,
+          "show_compare_icon": false,
+          "show_currency_switcher": false,
+          "show_country_selector": false,
+          "show_language_switcher": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1d0c700b-f77b-4a68-b8ea-c395a2b19fea": {
+            "type": "our_store",
+            "settings": {
+              "title": "Liberty Orchards",
+              "description": "<p>117 Mission Ave, <br\/>Cashmere, WA 98815<\/p>",
+              "show_email": true,
+              "show_phone": true,
+              "show_socials_link": true,
+              "width": "25%",
+              "order_first": false,
+              "open_default": false
+            }
+          },
+          "2ee21f20-d453-41c0-8790-33d7e91a3109": {
+            "type": "menu",
+            "settings": {
+              "menu": "catalog-collections",
+              "title": "Categories",
+              "width": "25%",
+              "order_first": false,
+              "open_default": false
+            }
+          },
+          "80a81eee-1122-4e6d-a5e4-265fd964b642": {
+            "type": "menu",
+            "settings": {
+              "menu": "help",
+              "title": "Quick Links",
+              "width": "25%",
+              "order_first": true,
+              "open_default": true
+            }
+          },
+          "bf439742-ba77-47e9-b790-9633d6446e0c": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Subscribe",
+              "description": "Enter your email below to be the first to know about new collections and product launches.",
+              "email_placeholder": "Enter your email",
+              "form_style": "bordered",
+              "show_social": false,
+              "show_agree_checkbox": false,
+              "width": "25%",
+              "order_first": false,
+              "open_default": false
+            }
+          }
+        },
+        "block_order": [
+          "1d0c700b-f77b-4a68-b8ea-c395a2b19fea",
+          "2ee21f20-d453-41c0-8790-33d7e91a3109",
+          "80a81eee-1122-4e6d-a5e4-265fd964b642",
+          "bf439742-ba77-47e9-b790-9633d6446e0c"
+        ],
+        "settings": {
+          "design": "footer-1",
+          "container": "container",
+          "bordered": false,
+          "copyright": "© Liberty Orchards 2022",
+          "show_country_selector": false,
+          "show_currency_selector": false,
+          "show_language_selector": false,
+          "show_social_links": true,
+          "show_payment_icons": false,
+          "payment_icons_width": 300
+        }
+      },
+      "annoucement": {
+        "type": "annoucement",
+        "settings": {
+          "show_announcement": true,
+          "homepage_only": true,
+          "show_close": true,
+          "message": "<span class=\"font-medium\">Check out  our new  products!<\/span>",
+          "message_link": "",
+          "show_divider": false
+        }
+      },
+      "mobile-sticky-bar": {
+        "type": "mobile-sticky-bar",
+        "settings": {
+          "show_mobile_sticky": false,
+          "show_home_icon": true,
+          "show_collection_icon": true,
+          "show_cart_icon": true,
+          "show_search_icon": true,
+          "show_account_icon": false,
+          "show_wishlist_icon": false
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "11007581849700305021": {
+        "type": "shopify:\/\/apps\/beae-flexible-page-builder\/blocks\/app-embed\/baa13179-0731-48ec-b878-b49964bcc901",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "341186785192672687": {
+        "type": "shopify:\/\/apps\/seal-subscriptions-loyalty\/blocks\/subscription-script-append\/13b25004-a140-4ab7-b5fe-29918f759699",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "3569375161408386233": {
+        "type": "shopify:\/\/apps\/estimated-delivery-pickup-edp\/blocks\/otd-block\/f1383932-76e6-410b-b861-75ee80486672",
+        "disabled": true,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "featured-collection": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+          }
+        }
+      },
+      "content_for_index": [
+        "featured-collection",
+        "featured-product"
+      ]
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".f-price-item .f-price-item--regular {font-weight: 600;}"
+    ]
+  }
+}

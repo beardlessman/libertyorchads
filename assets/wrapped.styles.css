@@ -1,0 +1,7 @@
+feature-message textarea {
+  margin-bottom: 0;
+}
+
+feature-variants select {
+  padding-right: 2em;
+}
